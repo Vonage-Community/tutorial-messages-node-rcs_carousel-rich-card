@@ -40,8 +40,8 @@ app.post('/send-rcs-carousel', async (req, res) => {
                 media: {
                   height: "TALL",
                   contentInfo: {
-                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/rcs-fashion-video.gif",
-                    thumbnailUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/rcs-fashion-thumbnail.png",
+                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/public/rcs-fashion-video.gif",
+                    thumbnailUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/public/rcs-fashion-thumbnail.png",
                     forceRefresh: true
                   }
                 },
@@ -76,7 +76,7 @@ app.post('/send-rcs-carousel', async (req, res) => {
                 media: {
                   height: "TALL",
                   contentInfo: {
-                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/rcs-fashion-tshirt.png"
+                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/public/rcs-fashion-tshirt.png"
                   }
                 },
                 suggestions: [
@@ -85,7 +85,7 @@ app.post('/send-rcs-carousel', async (req, res) => {
                       text: "See All",
                       postbackData: "see_tshirts",
                       openUrlAction: {
-                        url: "https://github.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/blob/main/rcs-fashion-tshirt.png"
+                        url: "https://github.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/blob/main/public/rcs-fashion-tshirt.png"
                       }
                     }
                   }
@@ -97,7 +97,7 @@ app.post('/send-rcs-carousel', async (req, res) => {
                 media: {
                   height: "TALL",
                   contentInfo: {
-                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/rcs-fashion-hat.png",
+                    fileUrl: "https://raw.githubusercontent.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/main/public/rcs-fashion-hat.png",
                   }
                 },
                 suggestions: [
@@ -106,7 +106,7 @@ app.post('/send-rcs-carousel', async (req, res) => {
                       text: "See All",
                       postbackData: "see_hats",
                       openUrlAction: {
-                        url: "https://github.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/blob/main/rcs-fashion-hat.png"
+                        url: "https://github.com/Vonage-Community/tutorial-messages-node-rcs_carousel-rich-card/blob/main/public/rcs-fashion-hat.png"
                       }
                     }
                   }
